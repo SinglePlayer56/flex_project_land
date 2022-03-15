@@ -378,6 +378,111 @@ h6 {
   margin: 0 0 34px 0;
 }
 
+.find__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.find__left {
+  height: 308px;
+  margin: 0 0 0 -135px;
+  padding: 0 135px 0;
+  background: #e2f8ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.find__right {
+  height: 308px;
+  padding: 0 0 0 75px;
+  margin: 0 -140px 0;
+  background: #f5f9eb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.find__body {
+  color: #515151;
+  padding: 0 65px 0 45px;
+}
+
+.find__title {
+  font-family: Montserrat;
+  font-size: 23.2px;
+  font-weight: 700;
+  margin: 0px 0 35px 0;
+}
+
+.find__text {
+  font-family: 'Open Sans';
+  font-size: 17.2px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin: 0 0 31px 0;
+}
+
+.button {
+  font-family: 'Open Sans';
+  font-size: 14.9px;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px 25px;
+}
+
+.find__button-left {
+  background: #26a6d1;
+}
+
+.find__button-right {
+  background: #add136;
+}
+
+.feature-header__row {
+  margin: 81px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.elem__title {
+  font-family: 'Open Sans';
+  font-size: 29.2px;
+  font-weight: 600;
+  color: #515151;
+  margin: 0 0 26px 0;
+}
+
+.elem__text {
+  font-family: 'Open Sans';
+  font-size: 17.2px;
+  font-weight: 400;
+  color: #8f8f8f;
+  padding: 0 100px 0 0;
+}
+
+.header__title-button {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  color: #515151;
+  background: #fff;
+  opacity: 0.7;
+  border: 1px solid #515151;
+}
+
 .footer::before {
   content: '';
   background: #000;
