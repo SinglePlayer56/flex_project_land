@@ -414,7 +414,85 @@
     opacity: 0.85;
   }
 }
-
+//////////////////////////////////////////////////////////
+.growing {
+  margin: 0 auto;
+  width: 1300px;
+  height: 605px;
+  background: url(../img/growing_background.png) -15px -65px / cover no-repeat;
+}
+.growing__row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.growing__header {
+  text-align: center;
+  margin: 79px 0 98px 0;
+}
+.growind__title {
+  font-family: 'Open Sans';
+  font-size: 39.2px;
+  font-weight: 600;
+  color: #9ec02d;
+  margin: 0 0 42px 0;
+}
+.growing__text {
+  font-family: 'Open Sans';
+  font-size: 19.2px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #949494;
+}
+.growing__review {
+  width: 397px;
+}
+.review__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.review__comments {
+  flex: 0 1 100%;
+  width: 397px;
+  height: 166px;
+  background: url(../img/review__background.png);
+  text-align: center;
+  font-family: 'Open Sans';
+  margin: 0 0 14px 0;
+}
+.comments__title {
+  align-self: center;
+  font-size: 21.2px;
+  font-weight: 600;
+  color: #9ec02d;
+  margin: 25px 0 22px 0;
+}
+.comments__text {
+  font-size: 13.2px;
+  line-height: 1.2;
+  color: #848484;
+  padding: 0 42px 0 36px;
+}
+.comments__photo {
+  margin: 0 18px 0 49px;
+}
+.comments__name {
+  font-family: Montserrat;
+  font-size: 15.2px;
+  font-weight: 400;
+  color: #494949;
+}
+.review-position1 {
+}
+.review-position2 {
+  margin: 0 37px 0 0;
+}
+/////////////////////////////////////////////////////////
+.label {
+  text-align: center;
+  margin: 45px 0 41px 0;
+}
 ///////////////////////////////////////////////////////////
 .footer {
   &::before {
