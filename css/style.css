@@ -169,7 +169,7 @@ h6 {
 
 .intellectual {
   margin: 0 auto;
-  width: 1300px;
+  max-width: 1300px;
   height: 570px;
   background: url(../img/intellectual_background.png) 0 0/cover no-repeat;
 }
@@ -261,7 +261,7 @@ h6 {
   line-height: 50px;
   font-weight: 600;
   text-transform: uppercase;
-  width: 510px;
+  max-width: 510px;
   margin: 0 0 70px;
 }
 
@@ -269,7 +269,7 @@ h6 {
   font-size: 19.2px;
   line-height: 1.2;
   font-weight: 400;
-  width: 925px;
+  max-width: 925px;
 }
 
 .presentation__text p {
@@ -352,15 +352,24 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .browseproject__image {
   padding: 25px 0 0 0;
+  margin: 0 0 25px 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%;
 }
 
 .browseproject__text {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 80%;
+          flex: 0 1 80%;
   font-family: 'Open Sans';
-  padding: 0 0 0 105px;
+  padding: 0 0 0 0px;
 }
 
 .browseproject__text p {
@@ -385,9 +394,8 @@ h6 {
 }
 
 .find__left {
-  height: 308px;
   margin: 0 0 0 -135px;
-  padding: 0 135px 0;
+  padding: 50px 135px;
   background: #e2f8ff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -398,8 +406,7 @@ h6 {
 }
 
 .find__right {
-  height: 308px;
-  padding: 0 0 0 75px;
+  padding: 50px 0 50px 75px;
   margin: 0 -140px 0;
   background: #f5f9eb;
   display: -webkit-box;
@@ -469,6 +476,14 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.header__title-elem {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 70%;
+          flex: 0 1 70%;
 }
 
 .elem__title {
@@ -488,9 +503,8 @@ h6 {
 }
 
 .header__title-button {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 auto;
-          flex: 0 0 auto;
+  -ms-flex-preferred-size: 200px;
+      flex-basis: 200px;
   color: #515151;
   background: #fff;
   opacity: 0.7;
@@ -504,6 +518,8 @@ h6 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .feature__column {
@@ -687,7 +703,7 @@ h6 {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 100%;
           flex: 0 1 100%;
-  width: 397px;
+  max-width: 397px;
   height: 166px;
   background: url(../img/review__background.png);
   text-align: center;
